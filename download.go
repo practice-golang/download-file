@@ -109,7 +109,7 @@ func main() {
 	// PuTTY - https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 	fmt.Println("PuTTY")
 	fileURL = "https://the.earth.li/~sgtatham/putty/latest/w64/putty.zip"
-	err = DownloadFile("filezilla.zip", fileURL)
+	err = DownloadFile("putty.zip", fileURL)
 	if err != nil {
 		panic(err)
 	}
